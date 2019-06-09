@@ -18,7 +18,7 @@
 
 ## Getting Started
 
-If you want to take my website as a template to build your own feel free to follow below.
+If you want to take my portfolio website as a template to build your own feel free to follow below.
 
 
 ### Prerequisites
