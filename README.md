@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://oubihis.com" rel="noreferrer noopener" target="_blank">
-    <img width=400px src="https://www.dropbox.com/s/ntieqiknq5lui0y/logo.png?dl=0" alt="Logo">
+    <img width=400px src="https://www.dropbox.com/s/ntieqiknq5lui0y/logo.png?raw=1" alt="logo">
   </a>
 </p>
 
