@@ -40,7 +40,7 @@ import cardsPage from './cardsPage'
     data: () => ({
       resumes: [
         {
-          url: 'https://www.dropbox.com/s/ataw7cs8r18iroa/Resume_oubihis.pdf?dl=0',
+          url: 'https://www.dropbox.com/s/ghjciji892gv47c/Resume_oubihis.pdf?dl=0',
           target: '_blank'
         }
       ],
