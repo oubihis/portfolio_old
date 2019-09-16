@@ -39,7 +39,7 @@ import featuresPage from './featuresPage'
     data: () => ({
       resumes: [
         {
-          url: 'https://www.dropbox.com/s/tk6zji95wfkatz3/Resume_Casablanca_Dev_front-end.pdf?dl=0',
+          url: 'https://www.dropbox.com/s/d6fu0guin3pams9/Resume-Oubihis.pdf?dl=0',
           target: '_blank'
         }
       ],
