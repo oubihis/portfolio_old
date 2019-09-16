@@ -1,6 +1,4 @@
 <template>
-
-
   <v-container fluid>
     <v-layout row wrap>
       <v-flex md6 xs12 order-xs1 text-xs-center text-md-left>
@@ -23,19 +21,20 @@
     </v-layout>
     <MainPage/>
     <cardsPage/>
-  </v-container>
-
-  
+    <featuresPage/>
+  </v-container> 
 </template>
 
 <script>
 import MainPage from './MainPage'
 import cardsPage from './cardsPage'
+import featuresPage from './featuresPage'
  export default {
     name: 'App',
     components: {
       MainPage,
-      cardsPage
+      cardsPage,
+      featuresPage
     },
     data: () => ({
       resumes: [
@@ -67,7 +66,7 @@ import cardsPage from './cardsPage'
         },
 
       ],
-      myTitle: "I'am Oubihis" ,
+      myTitle: "Oubihis" ,
     })
   }
 </script>

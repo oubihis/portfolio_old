@@ -1,24 +1,22 @@
 <template>
-
-        <v-layout row wrap align-start justify-center>
-            <v-flex v-for="card in cards" :key="card.title"  v-bind="{ [`lg${card.lg} md${card.md} sm${card.sm} xs${card.xs} mr${card.mr}`]: true }"  >
-            <v-card class="mx-1 my-2">
-                <v-img :src="card.src" height="190"></v-img>
-                <v-card-title primary-title>
-                <div>
-                    <div class="headline" v-text="card.title"></div>
-                    <span class="grey--text" v-text="card.subtitle"></span>
-                </div>
-                </v-card-title>
-                <v-card-actions>
-                <a :href="card.url" :target="card.target">
-                <v-btn flat color="blue-grey darken-4">See Github Repo</v-btn>
-                </a>
-                </v-card-actions>
-            </v-card>
-            </v-flex>
-        </v-layout>
-
+    <v-layout row wrap align-start justify-center>
+        <v-flex v-for="card in cards" :key="card.title"  v-bind="{ [`lg${card.lg} md${card.md} sm${card.sm} xs${card.xs} mr${card.mr}`]: true }"  >
+        <v-card class="mx-1 my-2">
+            <v-img :src="card.src" height="190"></v-img>
+            <v-card-title primary-title>
+            <div>
+                <div class="headline" v-text="card.title"></div>
+                <span class="grey--text" v-text="card.subtitle"></span>
+            </div>
+            </v-card-title>
+            <v-card-actions>
+            <a :href="card.url" :target="card.target">
+            <v-btn flat color="blue-grey darken-4">See Github Repo</v-btn>
+            </a>
+            </v-card-actions>
+        </v-card>
+        </v-flex>
+    </v-layout>
 </template>
 
 
